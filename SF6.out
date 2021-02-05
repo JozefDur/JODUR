@@ -1,0 +1,218 @@
+ *******************************************************************************
+ ** Site#: 30659        For non-commercial use only    Version 20.225L 64BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 20.225L, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 189**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Fri Feb  5 14:41:10 2021  *
+ *  PM7        - The PM7 Hamiltonian to be used
+ *  SINGLET    - SPIN STATE DEFINED AS A SINGLET
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = 0
+ *
+ *
+ *
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  AUX        - OUTPUT AUXILIARY INFORMATION
+ *  LARGE      - EXPANDED OUTPUT TO BE PRINTED
+ *******************************************************************************
+ AUX LARGE CHARGE=0 SINGLET  PM7
+ SF6
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       S         -0.85235000  *   0.14460000  *  -0.21340000  *
+     2       F         -2.31379000  *   0.14361000  *  -1.10214000  *
+     3       F          0.03521000  *   0.04161000  *  -1.67202000  *
+     4       F         -1.73974000  *   0.24753000  *   1.24522000  *
+     5       F          0.60942000  *   0.14551000  *   0.67494000  *
+     6       F         -0.90496000  *  -1.56283000  *  -0.12504000  *
+     7       F         -0.79993000  *   1.85199000  *  -0.30145000  *
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         S         -0.8524      0.1446     -0.2134
+     2         F         -2.3138      0.1436     -1.1021
+     3         F          0.0352      0.0416     -1.6720
+     4         F         -1.7397      0.2475      1.2452
+     5         F          0.6094      0.1455      0.6749
+     6         F         -0.9050     -1.5628     -0.1250
+     7         F         -0.7999      1.8520     -0.3015
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: S F6  =     7 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Oh  
+
+
+ SINGLET STATE CALCULATION
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 24
+
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   208.638 HEAT: -245.4470
+ CYCLE:     2 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:   127.540 HEAT: -278.2220
+ CYCLE:     3 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:   102.527 HEAT: -285.6432
+ CYCLE:     4 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:    21.641 HEAT: -290.9710
+ CYCLE:     5 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:    13.677 HEAT: -291.2498
+ CYCLE:     6 TIME:   0.023 TIME LEFT:  2.00D  GRAD.:    13.289 HEAT: -291.2906
+ CYCLE:     7 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     2.966 HEAT: -291.3644
+ CYCLE:     8 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     3.020 HEAT: -291.3747
+ CYCLE:     9 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     4.349 HEAT: -291.3712
+ CYCLE:    10 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     0.466 HEAT: -291.3778
+
+     GRADIENT =  0.46642 IS LESS THAN CUTOFF =  1.00000
+
+
+
+ -------------------------------------------------------------------------------
+ AUX LARGE CHARGE=0 SINGLET  PM7
+ SF6
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2016 (Version: 20.225L)
+                                                       Fri Feb  5 14:41:10 2021
+                                                       No. of days remaining = 189
+
+
+
+
+          FINAL HEAT OF FORMATION =       -291.37784 KCAL/MOL =   -1219.12487 KJ/MOL
+
+
+          TOTAL ENERGY            =      -2970.76046 EV
+          ELECTRONIC ENERGY       =      -8896.10370 EV  POINT GROUP:     Oh  
+          CORE-CORE REPULSION     =       5925.34325 EV
+          COSMO AREA              =        108.28 SQUARE ANGSTROMS
+          COSMO VOLUME            =         96.70 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.46642 = 0.17629 PER ATOM
+          IONIZATION POTENTIAL    =         15.741422 EV
+          HOMO LUMO ENERGIES (EV) =        -15.741 -1.036
+          NO. OF FILLED LEVELS    =         24
+          MOLECULAR WEIGHT        =        146.0504
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            F     4    F     3     3.11027
+            F     2    F     5     3.11015
+            F     7    F     6     3.11004
+
+
+          SCF CALCULATIONS        =         13
+ 
+          WALL-CLOCK TIME         =          0.129 SECONDS
+          COMPUTATION TIME        =          1.349 SECONDS
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       S         -0.85234910  *   0.14462942  *  -0.21336953  *
+     2       F         -2.18057723  *   0.14359451  *  -1.02158388  *
+     3       F         -0.04583110  *   0.05120969  *  -1.53997070  *
+     4       F         -1.65941751  *   0.23798123  *   1.11242892  *
+     5       F          0.47650598  *   0.14543530  *   0.59486749  *
+     6       F         -0.90014920  *  -1.40762253  *  -0.13277648  *
+     7       F         -0.80432213  *   1.69678359  *  -0.29349494  *
+
+                             CARTESIAN COORDINATES
+
+   1    S       -0.852349096     0.144629423    -0.213369526
+   2    F       -2.180577226     0.143594505    -1.021583876
+   3    F       -0.045831095     0.051209686    -1.539970696
+   4    F       -1.659417510     0.237981227     1.112428916
+   5    F        0.476505980     0.145435302     0.594867492
+   6    F       -0.900149197    -1.407622534    -0.132776483
+   7    F       -0.804322126     1.696783592    -0.293494940
+
+
+           Empirical Formula: S F6  =     7 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Oh  
+
+
+                  EIGENVALUES  
+ -42.09154 -41.61755 -41.61682 -41.61600 -40.08413 -40.08360 -24.81519 -19.79870
+ -19.79856 -19.79828 -17.25168 -17.25141 -17.25117 -16.77795 -16.77776 -16.77759
+ -16.55197 -16.55183 -16.55170 -15.91331 -15.91313 -15.91291 -15.74223 -15.74142
+  -1.03551   2.36849   2.36901   2.36939   2.61809   2.61816   2.61820   3.08134
+   3.08163
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       d-Pop       
+    1          S           2.385465        3.6145     1.16213     1.87830     0.57410
+    2          F          -0.397507        7.3975     1.97256     5.42494
+    3          F          -0.397668        7.3977     1.97262     5.42505
+    4          F          -0.397535        7.3975     1.97258     5.42496
+    5          F          -0.397646        7.3976     1.97262     5.42503
+    6          F          -0.397586        7.3976     1.97259     5.42499
+    7          F          -0.397522        7.3975     1.97258     5.42494
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    -0.002     0.001     0.001     0.003
+ HYBRID         0.000     0.000     0.000     0.000
+ SUM           -0.002     0.001     0.001     0.002
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz      x^2-y^2     xz        z^2       yz        xy
+    1  S   1.16213   0.62610   0.62609   0.62611   0.20453   0.20195   0.11544   0.02686   0.02534
+    2  F   1.97256   1.60999   1.97507   1.83989
+    3  F   1.97262   1.84064   1.97333   1.61108
+    4  F   1.97258   1.84027   1.97329   1.61140
+    5  F   1.97262   1.60988   1.97514   1.84001
+    6  F   1.97259   1.97463   1.47661   1.97376
+    7  F   1.97258   1.97461   1.47656   1.97376
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.13 SECONDS
+
+ == MOPAC DONE ==
